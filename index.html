@@ -11,15 +11,36 @@
 </head>
 	
 <body>
-<nav class="navbar navbar-inverse">
+<!--<nav class="navbar navbar-inverse">
   <ul class="nav navbar-nav">
-    <li><a href="#bmx">BMX</a></li>
-    <li><a href="#snowboard">Snowboard</a></li>
-    <li><a href="#tattoos">Tattos</a></li>
-    <li><a href="#about">About</a></li>
+    <li><a href="#bmx" class="scroll">BMX</a></li>
+    <li><a href="#snowboard" class="scroll">Snowboard</a></li>
+    <li><a href="#tattoos" class="scroll">Tattoos</a></li>
+    <li><a href="#about" class="scroll">About</a></li>
   </ul>
+  </nav>-->
+	<!-- NAVIGATION -->
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand scroll" href="#home">LEE BYRD</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+        <li><a href="#home" class="scroll">HOME</a></li>
+        <li><a href="#bmx" class="scroll">BMX</a></li>
+        <li><a href="#snow" class="scroll">SNOWBOARD</a></li>
+        <li><a href="#tats" class="scroll">TATTOOS</a></li>
+      </ul>
+      </div>
+    </div>
   </nav>
-	
 <div class="container">
   <h2>Image Gallery</h2>
   <h3 id="bmx">BMX</h3>
@@ -171,18 +192,27 @@
     </div>
   </div>
       
-<section class="section" id="contact">
-	      <div class="content-wrapper">
-	        <h3>Contact</h3>
-		        <a href="https://instagram.com/byrdmancaca" target="_blank">
-	            <i class="fa fa-instagram" aria-hidden="true"></i>
-            </a>
-	
-          <a href="mailto:standard@gmail.com">
-	          <i class="fa fa-envelope" aria-hidden="true" target="_blank"></i>
-	        </a>
-	      </div>
-	    </section>
+<div id="contact" class="content-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>CONTACT</h1>
+          <p class="lead">Don't be shy! Say Hello!</p>
+          <div class="social-cont">
+            <div class="row">
+              <div class="col-sm-12">
+                <a class="btn btn-default btn-lg linkedin-btn" href="https://leventevmek.com" role="button" target="_blank"><i class="fa fa-star"></i><span>Portfolio</span></a>
+                <a class="btn btn-default btn-lg twitter-btn" href="https://twitter.com/lveent" role="button" target="_blank"><i class="fa fa-twitter"></i><span>Twitter</span></a>
+                <a class="btn btn-default btn-lg github-btn" href="https://github.com/lveent" role="button" target="_blank"><i class="fa fa-github"></i><span>Github</span></a>
+                <a class="btn btn-default btn-lg fcc-btn" href="https://www.freecodecamp.com/lveent" role="button" target="_blank"><i class="fa fa-fire"></i><span>freeCodeCamp</span></a>
+              </div>
+            </div>  
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>
